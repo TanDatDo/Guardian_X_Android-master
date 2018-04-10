@@ -2,6 +2,7 @@ package io.guardianx.guardianx_android;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.widget.Button;
 import android.widget.TextView;
 
 public class LoginActivity extends AppCompatActivity {
@@ -19,6 +20,7 @@ public class LoginActivity extends AppCompatActivity {
         getSupportFragmentManager().beginTransaction().
                 replace(R.id.activity_login, loginFragment)
                 .commitNow();
+        Button button;
         TextView textView;
     }
 }
